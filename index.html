@@ -4,20 +4,186 @@
         <meta charset="utf-8">
         <title>Project: Recipe Webpage</title>
         <style>
+        body, h1, h2, h3, p, ul, ol, th, td {
+                                             font-style: normal;
+                                             font-family: Times New;
+                                             font-size: 20px;
+                                             font-weight: bold;
+        }
+        td {
+            background-color: rgb( 245, 222, 204);
+            color: rgb( 156, 12, 12);
+        }
+        th {
+            background-color: rgb( 143, 0, 0);
+            color: rgb( 245, 222, 204);
+        }
+        h1, h2, h3 {
+                    text-decoration: underline;
+        }
+        #kitchen-heading {
+           font-weight: bold;
+           background-color: rgb( 20, 5, 133);
+           color: rgb( 255, 255, 255);
+           font-size:2.5em;
+        }
+        .heading {
+                 background-color: rgb( 235, 136, 181);
+                 color: rgb( 55, 12, 66);
+                 font-size: 1.5em;
+                 font-weight: bold;
+        }
+        #biryani {
+                 background-color: rgb( 3, 187, 219);
+                 color: rgb( 18, 0, 89);
+                 font-size: 2em;
+                 font-weight: bold;
+        }
+        ul {
+            color: rgb( 22, 112, 0);
+        }
+        ol {
+           color: rgb( 145, 23, 23);
+        }
         </style>
     </head>
     <body>
-         <h1>IRUM'S KITCHEN</h1>
-         <h2>Contents:</h2>
+         <h1 id="kitchen-heading">IRUM'S KITCHEN</h1>
+         <h3 class="heading">Contents:</h3>
          <ol>
-            <li></li>
-            <li></li>
+            <li><a href="biryani">Biryani</a></li>
          </ol>
-    
-    
-    
-    
-    
-    
+         <h2 id="biryani">1.Biryani</h2>
+         <ul>
+            <li>Time: 12:00am-10:00pm</li>
+            <li>Serves: 5</li>
+         </ul>
+         <img src="https://static.toiimg.com/thumb/54308405.cms?imgsize=510571&width=800&height=800" alt="Biryani" width="700px" height="700">
+         <h3 class="heading">Ingredients</h3>
+         <table>
+               <thead>
+                      <tr>
+                          <th>Ingredients</th>
+                          <th>Quantity</th>
+                      </tr>
+               </thead>
+               <tbody>
+                      <tr>
+                          <td>Basmati Rice</td>
+                          <td>1 cup</td>
+                      </tr>
+                      <tr>
+                         <td>Chicken</td>
+                         <td>600 grams</td>
+                      </tr>
+                      <tr>
+                         <td>Mint leaves</td>
+                         <td>1/2 teaspoon</td>
+                      </tr>
+                      <tr>
+                         <td>Garam masala powder</td>
+                         <td>1 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Salt</td>
+                         <td>as required</td>
+                      </tr>
+                      <tr>
+                         <td>Saffron</td>
+                         <td>1 teaspoon</td>
+                      </tr>
+                      <tr>
+                         <td>Refined oil</td>
+                         <td>2 tablespoons</td>
+                      </tr>
+                      <tr>
+                         <td>Bay leaf</td>
+                         <td>1 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Green cardamom</td>
+                         <td>3</td>
+                      </tr>
+                      <tr>
+                         <td>Black cardamom</td>
+                         <td>1</td>
+                      </tr>
+                      <tr>
+                         <td>Clove</td>
+                         <td>2</td>
+                      </tr>
+                      <tr>
+                         <td>Cumin seeds</td>
+                         <td>1 teaspoon</td>
+                      </tr>
+                      <tr>
+                         <td>Onion</td>
+                         <td>2</td>
+                      </tr>
+                      <tr>
+                         <td>Green chillies</td>
+                         <td>4</td>
+                      </tr>
+                      <tr>
+                         <td>Turmeric</td>
+                         <td>1 teaspoon</td>
+                      </tr>
+                      <tr>
+                         <td>Ginger paste</td>
+                         <td>1 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Garlic paste</td>
+                         <td>1 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Red chilli powder</td>
+                         <td>1 teaspoon</td>
+                      </tr>
+                      <tr>
+                         <td>Hung curd</td>
+                         <td>1 cup</td>
+                      </tr>
+                      <tr>
+                         <td>Ginger</td>
+                         <td>1/2 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Coriander leaves</td>
+                         <td>2 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Kewra</td>
+                         <td>2 drops</td>
+                      </tr>
+                      <tr>
+                         <td>Water</td>
+                         <td>as required</td>
+                      </tr>
+                      <tr>
+                         <td>Rose water</td>
+                         <td>1 tablespoon</td>
+                      </tr>
+                      <tr>
+                         <td>Ghee</td>
+                         <td>1 tablespoon</td>
+                      </tr>
+               </tbody>
+         </table>
+         <h3 class="heading">Directions</h3>
+         <p><strong>Step 1: Prepare saffron and kewra water</strong><br>
+         To make this delightful biryani, soak saffron in water to prepare saffron water. Next, mix kewra drops in water and mix well to make kewra water.</p>
+         <p><strong>Step 2: Saute onions and tomatoes for 2-3 minutes</strong><br>
+         In the meanwhile, heat refined oil in a deep bottomed pan. Once the oil is hot enough.
+         Add cumin seeds, bay leaf, green cardamom, black cardamom,cloves in it, and saute for about a minute. Then, add chopped onion in it and saute until pink.
+         Now, add chicken into it with slit green chillies, turmeric, salt to taste, ginger garlic paste, red chilli powder, and green chilli paste.
+         Mix well all the spices and cook for <em>2-3 minutes</em>. Then, add hung curd into it.</p>
+         <p><strong>Step 3: Cook on low heat for 5-6 minutes</strong><br>
+         Turn the flame to medium again and add garam masala in it along with ginger julienned, coriander and mint leaves.
+         Add kewra water, rose water and saffron water in it. Cook till the chicken is tender.</p>
+         <p><strong>Step 4: Serve hot with your favourite chutney or raita</strong>
+         Then add 1 cup cooked rice and spread evenly. Then add saffron water and pour ghee over it.
+         Cook for <em>15-20 minutes</em> with closed lid and garnish with 1 tbsp fried onions and coriander leaves. Serve hot.</p>
+         <p><em>Source:<a href="https://recipes.timesofindia.com/recipes/chicken-biryani/rs53096628.cms">Some recipes websites</a></em></p>
     </body>
 </html>
